@@ -20,13 +20,6 @@ public class PrikladZlomek {
 		vypoctiZlomek(prvniCitatel,prvniJmenovatel,operator,druhyJmenovatel,druhyCitatel);
 		
 	}
-
-	public static double roundAvoid(double okrajovaHodnota, int pozice) {
-	    double scale = Math.pow(10, pozice);
-	    return Math.round(okrajovaHodnota * scale) / scale;
-	}
-	
-	
 	public String generujStringOperator(int operator) {
 		switch (operator) {
 		case 1:
